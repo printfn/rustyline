@@ -1,5 +1,5 @@
 [package]
-name = "rustyline"
+name = "rustyline-with-hint-fix"
 version = "8.1.0"
 authors = ["Katsu Kawakami <kkawa1570@gmail.com>"]
 edition = "2018"
