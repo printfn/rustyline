@@ -262,6 +262,8 @@ fn complete_hint_line<H: Helper>(s: &mut State<'_, '_, H>) -> Result<()> {
         if s.line.yank(text, 1).is_none() {
             s.out.beep()?;
         }
+    } else {
+        return Ok(());
     }
     s.refresh_line_with_msg(None)?;
     Ok(())
